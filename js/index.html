@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        /*
+            // var name;
+            // var age;
+            // var sex;
+            // var a,b,c;
+         */
+        '11' * 2
+        'a8' * 3
+
+        var a = 2, b = 3;
+        var c = a++ + b; // c = 5
+        console.log(c);
+        var person = new Object();
+        person.name = "weixiaoyu";
+        person.age = 20;
+        Object.defineProperty(person,"year",{
+            get:function () {
+                return 89;
+            },
+            set:function (value) {
+                this.value = 25 + value;
+            }
+        })
+        console.log(person.year);
+        person.year = 40;
+        console.log(person.year);
+        console.log(Number.MAX_VALUE);
+        console.log(typeof  true);
+
+        function Person(name)
+        {
+            var obj = new Object();
+            obj.name = name;
+            obj.add = function () {
+                console.log(this.name);
+            }
+            return obj;
+        }
+       var aa = Person('韦小鱼');
+        aa.add();
+
+    </script>
+</head>
+
+<body>
+ww
+</body>
+</html>
