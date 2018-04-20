@@ -1,4 +1,4 @@
-console.log("测试代码")
+console.log("代理模式--测试代码")
 
 var xiaoming = {
 
@@ -46,6 +46,3 @@ var Flower = function (type) {
 }
 
 xiaoming.sendFlower(xiaoxue);
-
-
-
