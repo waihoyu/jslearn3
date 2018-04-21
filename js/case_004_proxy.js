@@ -46,3 +46,5 @@ var Flower = function (type) {
 }
 
 xiaoming.sendFlower(xiaoxue);
+
+
